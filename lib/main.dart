@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import 'package:flutter/material.dart';
 
 void main() {
@@ -123,3 +124,65 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+=======
+import 'dart:typed_data';
+
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(Dynamic());
+}
+
+
+class Dynamic extends StatefulWidget {
+  const Dynamic({super.key});
+
+  @override
+  State<Dynamic> createState() => _DynamicState();
+}
+
+class _DynamicState extends State<Dynamic> {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        body: Scaffold(
+          appBar: AppBar(
+            centerTitle: true,
+            backgroundColor: Color(0xff244d61),
+            title: Text(
+              'Dynamic List',
+              style: TextStyle(color: Colors.white),
+            ),
+          ),
+        ),
+      )
+    );
+  }
+}
+
+
+
+List l1 = [];
+
+Container containerDetailsd({required int index}) {
+  return Container(
+    margin: const EdgeInsets.symmetric(vertical: 5, horizontal: 15),
+    height: 100,
+    width: double.infinity,
+    decoration: BoxDecoration(
+      color: (index % 2 == 0) ? Color(0xff75e2ff) : Color(0xff5689c0),
+      borderRadius: BorderRadius.circular(10),
+    ),
+    alignment: Alignment.center,
+    child: Text(
+      '$index',
+      style: const TextStyle(
+        color: Colors.white,
+        fontSize: 35,
+      ),
+    ),
+  );
+}
+>>>>>>> 10a82fc (new)
