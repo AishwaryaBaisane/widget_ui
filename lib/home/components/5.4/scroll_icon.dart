@@ -1,5 +1,6 @@
 import 'Package:flutter/Material.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 void main() {
   runApp(const App());
@@ -44,22 +45,25 @@ class _HomeScreenState extends State<HomeScreen> {
         body: Align(
           child: Column(
             children: [
-              scrollRow(
-                i1: const Icon(
-                  Icons.add,
-                  size: 40,
-                ),
-                i2: const Icon(
-                  Icons.stop_circle_outlined,
-                  size: 40,
-                ),
-                i3: const Icon(
-                  Icons.arrow_back_ios_new,
-                  size: 40,
-                ),
-                i4: const Icon(
-                  Icons.arrow_forward_ios,
-                  size: 40,
+              SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: scrollRow(
+                  i1: const Icon(
+                    Icons.add,
+                    size: 40,
+                  ),
+                  i2: const Icon(
+                    Icons.stop_circle_outlined,
+                    size: 40,
+                  ),
+                  i3: const Icon(
+                    Icons.arrow_back_ios_new,
+                    size: 40,
+                  ),
+                  i4: const Icon(
+                    Icons.arrow_forward_ios,
+                    size: 40,
+                  ),
                 ),
               ),
               scrollRow(
