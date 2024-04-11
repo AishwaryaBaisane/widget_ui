@@ -75,7 +75,7 @@ class _HomePageState extends State<HomePage> {
         centerTitle: true,
         title: const Text(
           'Dynamic List',
-          style: TextStyle(color: Colors.white, fontSize: 28),
+          style: TextStyle(color: Colors.white),
         ),
       ),
       body: SingleChildScrollView(
