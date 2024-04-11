@@ -9,6 +9,8 @@ void main() {
         child: Scaffold(
           backgroundColor: mthColor,
           appBar: AppBar(
+            elevation: 13,
+            shadowColor: Colors.black,
             centerTitle: true,
             backgroundColor: Color(0xff2f79da),
             title: const Text(

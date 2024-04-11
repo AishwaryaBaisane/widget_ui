@@ -10,6 +10,8 @@ void main() {
           backgroundColor: Colors.black,
           appBar: AppBar(
             backgroundColor: Colors.red,
+            elevation: 13,
+            shadowColor: Colors.black,
             centerTitle: true,
             title:const Text(
               'Dark Shadow Button',
