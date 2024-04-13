@@ -119,7 +119,7 @@ samples, guidance on mobile development, and a full API reference.
 ###
 
 <div align = "center">
-  <img align = "left" height="560" src="https://github.com/AishwaryaBaisane/widget_ui/assets/149373597/e8a36308-2df0-49a3-9788-edea2372235e" />
+  <img align = "left" height="550" src="https://github.com/AishwaryaBaisane/widget_ui/assets/149373597/e8a36308-2df0-49a3-9788-edea2372235e" />
   <img height="550" src="https://github.com/AishwaryaBaisane/widget_ui/assets/149373597/5c7b4f53-f5f7-4409-80e0-fb8291e2b1d1" />
   <img align = "right" height="550" src="https://github.com/AishwaryaBaisane/widget_ui/assets/149373597/28b31bec-98de-4900-a87a-a5eddb8d442e"  />
 </div>
@@ -135,8 +135,8 @@ samples, guidance on mobile development, and a full API reference.
 ###
 
 <div align = "center">
-  <img align = "left" height="560" src="https://github.com/AishwaryaBaisane/widget_ui/assets/149373597/5123630f-e0d8-4b2c-b721-678f27a504cc" />
-    <img align = "left" height="560" src="https://github.com/AishwaryaBaisane/widget_ui/assets/149373597/a379b26a-af08-40fa-be12-a03c6e8d321e" />
+  <img align = "left" height="550" src="https://github.com/AishwaryaBaisane/widget_ui/assets/149373597/5123630f-e0d8-4b2c-b721-678f27a504cc" />
+    <img align = "left" height="550" src="https://github.com/AishwaryaBaisane/widget_ui/assets/149373597/a379b26a-af08-40fa-be12-a03c6e8d321e" />
 
 
 
